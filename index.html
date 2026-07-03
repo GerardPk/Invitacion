@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estas invitado</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="pantallaInicial" class="pantalla">
+    <h1>Tu presencia es importante</h1>
+
+    <button onclick="abrirInvitacion()">
+        Abrir Invitación
+    </button>
+</div>
+
+<div id="invitacion" class="oculto">
+
+    <h1>Comida de agradecimiento</h1>
+
+    <p id="mensaje"></p>
+
+    <div class="contador">
+        <h2>Faltan</h2>
+        <p id="cuentaRegresiva"></p>
+    </div>
+
+    <div class="info">
+        <p>📅 Domingo 5 Julio 2026</p>
+        <p>🕗 3:00 PM</p>
+        <p>📍 Déborah's house</p>
+        <p>👔 Casual Elegante</p>
+    </div>
+
+    <a
+      class="botonMaps"
+      href="https://maps.app.goo.gl/7tmaB5mqajN3whjx8"
+      target="_blank">
+      📍 Ver ubicación
+    </a>
+
+    <a
+      class="botonWhatsapp"
+      href="https://wa.me/525517766446?text=Hola,%20confirmo%20mi%20asistencia%20a%20la%20comida."
+      target="_blank">
+      ✅ Confirmar por WhatsApp
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
