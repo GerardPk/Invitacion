@@ -2,7 +2,7 @@
 // Formato: "Mes Día, Año Hora:Minuto:Seg" 
 // Ejemplo: "Aug 15, 2026 14:00:00" = 15 de Agosto 2026 a las 2:00pm
 // Tip: Agrega Z al final para usar UTC: "2026-08-15T14:00:00Z"
-const fechaObjetivo = new Date("Apr 04, 2026 14:00:00").getTime();
+const fechaObjetivo = new Date("Apr 04, 2027 14:00:00").getTime();
 
 // Inicia el contador cuando cargue la página
 document.addEventListener("DOMContentLoaded", () => {
