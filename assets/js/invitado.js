@@ -29,7 +29,7 @@ async function cargarInvitado(){
 
   document
     .getElementById(
-      "invitado"
+      "nombre"
     )
     .innerHTML =
     Hola ${data.nombre};
