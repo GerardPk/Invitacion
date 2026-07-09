@@ -28,16 +28,12 @@ async function cargarInvitado(){
   }
 
   document
-    .getElementById(
-      "nombre"
-    )
+    .getElementById("nombre")
     .innerHTML =
     Hola ${data.nombre};
 
   document
-    .getElementById(
-      "boletos"
-    )
+    .getElementById("boletos")
     .innerHTML =
     Tienes ${data.boletos} boletos disponibles;
 }
