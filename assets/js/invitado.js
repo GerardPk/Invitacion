@@ -42,7 +42,7 @@ console.log("consultando invitado");
   document
     .getElementById("boletos")
     .innerHTML =
-    Tienes `${data.boletos} boletos disponibles`;
+    `Tienes ${data.boletos} boletos disponibles`;
 }
 
 cargarInvitado();
