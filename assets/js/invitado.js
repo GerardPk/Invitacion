@@ -16,7 +16,7 @@ async function cargarInvitado(){
 console.log("consultando invitado");
   const response =
     await fetch(
-      '${API}?token=${token}'
+      `${API}?token=${token}`
     );
     
     console.log("response: ", response);
