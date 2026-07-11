@@ -15,7 +15,7 @@ async function cargarInvitado(){
 
   const response =
     await fetch(
-      ${API}?token=${token}
+      '${API}?token=${token}'
     );
 
   const data =
