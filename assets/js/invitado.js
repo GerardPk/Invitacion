@@ -37,12 +37,12 @@ console.log("consultando invitado");
   document
     .getElementById("nombre")
     .innerHTML =
-    Hola '${data.nombre}';
+    `Hola ${data.nombre}`;
 
   document
     .getElementById("boletos")
     .innerHTML =
-    Tienes '${data.boletos}' boletos disponibles;
+    Tienes `${data.boletos} boletos disponibles`;
 }
 
 cargarInvitado();
