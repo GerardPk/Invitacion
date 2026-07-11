@@ -5,6 +5,8 @@ const params =
 
 const token =
   params.get("token");
+  
+  console.log("Tomen: ", token)
 
 const API =
 "https://script.google.com/macros/s/AKfycbw8CREdG0D2joBa_VEoVBoxUPiCAfDgCmpfTBfaGidG_2lAAAyxNzMr4w0SmklwPFIN/exec";
