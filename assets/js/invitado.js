@@ -6,20 +6,25 @@ const params =
 const token =
   params.get("token");
   
-  console.log("Tomen: ", token)
+  console.log("Token: ", token);
 
 const API =
 "https://script.google.com/macros/s/AKfycbw8CREdG0D2joBa_VEoVBoxUPiCAfDgCmpfTBfaGidG_2lAAAyxNzMr4w0SmklwPFIN/exec";
 
 async function cargarInvitado(){
 
+console.log("consultando invitado");
   const response =
     await fetch(
       '${API}?token=${token}'
     );
+    
+    console.log("response: ", response);
 
   const data =
-    await response.json();
+    await response.json(); 
+    
+    console.log("data: ", data);
 
   if(data.error){
 
