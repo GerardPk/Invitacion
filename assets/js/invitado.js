@@ -18,7 +18,7 @@ console.log("consultando invitado");
     await fetch(
       `${API}?token=${token}`
     );
-    
+     
     console.log("response: ", response);
 
   const data =
